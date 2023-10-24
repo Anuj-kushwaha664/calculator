@@ -124,6 +124,12 @@ divide.addEventListener("click", function(){
     }
 });
 modulo.addEventListener("click", function(){
+    if(expression.length == 0){
+        alert("please enter a valid expression");
+        expression = "";
+        box1.innerText = expression;
+        return;
+    } 
     expression = expression + "/100"; 
     expression = eval(expression);
     box1.innerText = expression;
