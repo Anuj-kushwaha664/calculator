@@ -1,0 +1,87 @@
+.red{
+    background-color: rgb(178, 40, 40);
+    color : white;
+}
+.white{
+    background-color: white;
+}
+section{
+    height : 500px;
+    width : 500px;
+    background-color: rgb(227, 223, 217);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+}
+.box1{
+    background-color: white;
+    height : 100px;
+    width : 95%;
+    text-align: right;
+    padding : 5px;
+    font-size: 20px;
+}
+.box2{
+    /* background-color: white; */
+    height : 360px;
+    width : 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 5px;
+}
+.box2 .zero{
+    width: 235px;
+}
+.btn{
+    height : 60px;
+    width : 115px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding-top : 20px;
+}
+
+
+@media  screen and (max-width: 560px) {
+    section{
+        height : 400px;
+        width : 300px;
+        background-color: rgb(227, 223, 217);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap : 5px;
+    }
+    .box1{
+        background-color: white;
+        height : 80px;
+        width : 90%;
+        text-align: right;
+        padding : 5px;
+        font-size: 20px;
+    }
+    .box2{
+        /* background-color: white; */
+        height : 290px;
+        width : 95%;
+        display: flex;
+        flex-wrap: wrap;
+        gap : 5px;
+    }
+    .btn{
+        height : 50px;
+        width : 67px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 10px;
+        padding-top : 20px;
+    }
+    .box2 .zero{
+        width: 139px;
+    }
+}
